@@ -1,3 +1,9 @@
+/*
+  Program: Electricity Bill Calculator
+  Author: oxidised-AR15
+  Date: 2025-09-13
+  Description: Calculates electricity bill based on units consumed using conditional logic.
+*/
 // From 0 to 100 units bill is free but have to give confirmed charge of 300 Rs and above it 300 fixed charge plus per units charge after usage of 100 units according to slab will be your total bill.
 
 #include <stdio.h>
@@ -26,4 +32,5 @@ int main() {
         printf("Bill is :Rs %.2f Rs",bill);
     }
     return 0;
+
 }
