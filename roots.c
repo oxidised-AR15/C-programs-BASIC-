@@ -1,3 +1,10 @@
+/*
+  Program: Quadratic Equation Roots
+  Author: oxidised-AR15
+  Date: 2025-09-13
+  Description: Finds the roots of a quadratic equation, handling both real and imaginary cases.
+*/
+
 #include <stdio.h>
 #include <math.h>
 int main() {
@@ -24,4 +31,5 @@ int main() {
             printf("1st Root is : %.3f\n2nd Root is : %.2f\n",r1,r2);
         }
         return 0;    
+
     }
